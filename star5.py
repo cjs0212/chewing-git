@@ -1,4 +1,4 @@
-N = 7
+N = 6
 
-for i in range(1, N):
-    print(" "*(N-i)+"*"*i + "*"*(i)+" "*(N-i))
+for i in range(1,N):
+    print(" "*(i)+"*"*(N-i) + "*" *(N-i) + " " * i)   
